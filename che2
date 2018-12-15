@@ -1,0 +1,24 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class che2 : MonoBehaviuor
+{
+   publilc void b1() //на следующий мем
+   {
+     SceneManagement.LoadScene("che3",LoadSceneMode.Single);
+   }
+   public void b2()
+   {
+     SceneManagement.LoadScene("che1",LoadSceneMode.Single);
+   }
+   public void b3()
+   {
+     SceneManagement.LoadScene("cheMenu",LoadSceneMode.Single);
+   }
+   public void b4()
+   {
+   SceneManagement.LoadScene("Albums",LoadSceneMode.Single);
+   }
+   
+}
