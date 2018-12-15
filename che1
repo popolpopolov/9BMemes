@@ -1,0 +1,29 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class che1()
+{
+
+public Text Mem;
+void Start()
+{
+  Mem.text="";
+}
+  public void b1()
+  {
+    SceneManager.LoadScene("che2",LoadSceneMode.Single);
+  }
+  public void b2()
+  {
+    SceneManager.LoadScene("cheMenu",LoadSceneMode.Single);
+  }
+  public void b3()
+  {
+   SceneManager.LoadScene("Albums",LoadSceneMode.Single);
+  }
+  public void b4()
+  {
+  SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
+  }
+}
