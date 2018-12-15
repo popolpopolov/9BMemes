@@ -4,6 +4,12 @@ using UnityEngine.UI;
 
 public class che2 : MonoBehaviuor
 {
+
+public Text Mem;
+void Start
+{
+ Mem.text="";
+}
    publilc void b1() //на следующий мем
    {
      SceneManagement.LoadScene("che3",LoadSceneMode.Single);
